@@ -113,7 +113,6 @@ PLATFORMS
 DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.4.1)
-  jekyll-feed (~> 0.12)
   jekyll-sitemap
   jekyll-twoxify
   minima (~> 2.5)
