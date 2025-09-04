@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+@import "tailwindcss";
+@import "./fonts.css";
+
+/* global variables */
+:root {
+  --base-blue: #002B5C;
+
+  --title-font: 'Futura';
+  --body-font: 'Proxima Nova';
+}
+
+body {
+  background-color: var(--base-blue);
+  color: white;
+  font-family: var(--body-font);
+}
+
+h1 {
+  font-family: var(--title-font);
+}

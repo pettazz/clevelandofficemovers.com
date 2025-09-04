@@ -1,0 +1,27 @@
+title: Cleveland Office Movers
+email: bryan@clevelandofficemovers.com
+description: >- 
+  Cleveland Office Movers
+meta-tags: [cleveland, moving, movers, office movers]
+
+baseurl: "" 
+url: "https://clevelandofficemovers.com" 
+
+markdown: kramdown
+safe: false
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - LICENSE
+  - README.md
+  - .gitignore
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - package-lock.json
+  - package.json
+  - node_modules/

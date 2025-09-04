@@ -1,0 +1,43 @@
+name: Deploy to HG
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '23.9.x'
+
+    - name: Install npm dependencies
+      run: npm install
+
+    - name: Setup Ruby
+      # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
+      uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+      with:
+        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+        cache-version: 0 # Increment this number if you need to re-download cached gems
+
+    - name: Run build step
+      run: npm run build
+      env:
+          JEKYLL_ENV: production
+
+    - name: Deploy with rysnc
+      uses: burnett01/rsync-deployments@7.1.0
+      with:
+        switches: -avzr --delete
+        path: _site/
+        remote_path: ${{ secrets.DEPLOY_PATH }}
+        remote_host: ${{ secrets.DEPLOY_HOST }}
+        remote_port: ${{ secrets.DEPLOY_PORT }}
+        remote_user: ${{ secrets.DEPLOY_USER }}
+        remote_key: ${{ secrets.SSH_KEY }}
+        remote_key_pass: ${{ secrets.SSH_PASSPHRASE }}
