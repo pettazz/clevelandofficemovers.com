@@ -21,7 +21,7 @@
     "tailwind-watch": "tailwindcss -i ./_css/main.css -o ./assets/css/dist.css --watch --map",
     "tailwind-build": "tailwindcss -i ./_css/main.css -o ./assets/css/dist.css -m",
     "start": "TAILWIND_MODE=watch NODE_ENV=development npm-run-all --parallel jekyll-serve tailwind-watch",
-    "build": "npm-run-all clean tailwind-build jekyll-build"
+    "build": "npm-run-all tailwind-build jekyll-build"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.12",
