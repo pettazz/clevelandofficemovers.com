@@ -31,7 +31,7 @@
     src: local('Futura Bold Italic'), local('Futura-BoldItalic'),
         url('/assets/woff/futura-bolditalic.woff') format('woff');
     font-weight: bold;
-    font-weight: italic;
+    font-style: italic;
     font-display: swap;
 }
 
@@ -66,6 +66,6 @@
     src: local('Proxima Nova Bold Italic'), local('ProximaNova-BoldIt'),
         url('/assets/woff/proximanova-bolditalic.woff') format('woff');
     font-weight: bold;
-    font-weight: italic;
+    font-style: italic;
     font-display: swap;
 }

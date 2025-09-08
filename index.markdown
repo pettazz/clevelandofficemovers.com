@@ -3,18 +3,21 @@ layout: home
 
 sections:
   - image: /assets/img/photo1.jpg
-    title: List Item One
-    headline: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    id: mission-statement
+    title: Mission Statement
+    headline: What we are about
     body: >- 
-      Morbi finibus nunc metus, sit amet ornare lacus dictum non. Praesent iaculis non quam lobortis ultricies. Vestibulum molestie erat justo, vitae pretium urna mollis id. Pellentesque quis lorem dolor. Nam at luctus neque. Vestibulum cursus ante risus, eu sollicitudin lacus eleifend vel. Phasellus eu orci eu est tempor scelerisque.
+      We provide quality office relocation services to our clients using professionally trained office movers.
   - image: /assets/img/photo2.jpg
-    title: Another Thing
-    headline: Nam sit amet euismod tortor
+    id: another
+    title: List of Services
+    headline: What we do for you
     body: >- 
-      Aliquam ut vulputate dolor. Quisque id imperdiet purus. Nam sed condimentum mauris. Curabitur felis justo, pharetra eu suscipit ut, scelerisque dignissim augue. Phasellus nec vestibulum orci, nec rhoncus dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ornare est quis quam fermentum, id dictum dolor rhoncus. Etiam ac nibh ligula. Etiam neque metus, ultricies at dictum finibus, dapibus vel massa.
+      <ul><li>Office Moving<ul><li>Within office suites</li><li>From building to building</li></ul></li><li>Office Clean Out<ul><li>Remove old furniture/content</li></ul></li><li>Workstations<ul><li>Raise systems to replace flooring or paint</li><li>Remove stations that are no longer needed</li></ul></li><li>General Labor<ul><li>Assist with unloading trailers</li></ul></li><li>Storage<ul><li>Short term storage available for projects</li></ul></li></ul>
   - image: /assets/img/photo3.jpg
-    title: And a Third
-    headline: Suspendisse lorem velit, aliquet at pretium ac
+    id: third
+    title: My Story
+    headline: Who we are
     body: >- 
-      Nunc in lacus ac tellus tincidunt iaculis ut nec augue. Duis gravida, justo ut varius scelerisque, odio lacus lacinia purus, at imperdiet enim nibh a eros. Cras vel ante nulla. Phasellus dictum metus est, molestie fringilla lectus dignissim vel. Nullam sed nunc consequat, dictum erat ac, mattis augue. Maecenas velit sapien, finibus quis faucibus ac, porta et orci. In hac habitasse platea dictumst. Nullam dui libero, viverra quis velit nec, tincidunt accumsan arcu. Morbi cursus nisl in odio bibendum dignissim ut quis est.
+      In 1985 I was hired at Stephens Moving & Storage owned by Burt Capra. My job consisted of pushing a broom in the warehouse. As time went on he taught me sales and operations. From there I worked at other moving companies holding roles as Operations Manager, Sales Manager, General Manager, Vice President, and then President. I'm proud to announce today after 40 years the industry that I am the owner of Cleveland Office Movers LLC. Burt once told me that "in the end it's not what you have done in your life it is who you positively influenced in your life". Burt, you were a positive influence in my life. I hope to be a positive influence in other peoples' lives as you were in mine.
 ---
