@@ -7,7 +7,7 @@ sections:
     title: Mission Statement
     headline: What we are about
     body: >- 
-      We provide quality office relocation services to our clients using professionally trained office movers.
+      We provide quality office relocation services to our clients using professionally trained office movers.<br /><br /><p><strong>Licensing</strong></p><p>PUCO #657602<br /> DOT #044621166</p> <br /> <p><strong>Address</strong></p><p>1452 Andrea Drive<br />Brunswick, OH 44212</p> 
   - image: /assets/img/photo2.jpg
     id: another
     title: List of Services
