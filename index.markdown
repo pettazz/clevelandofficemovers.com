@@ -7,7 +7,7 @@ sections:
     title: Mission Statement
     headline: What we are about
     body: >- 
-      We provide quality office relocation services to our clients using professionally trained office movers.<br /><br /><p><strong>Licensing</strong></p><p>PUCO #657602<br /> DOT #04462166</p> <br /> <p><strong>Address</strong></p><p>1452 Andrea Drive<br />Brunswick, OH 44212</p> 
+      We provide quality office relocation services to our clients using professionally trained office movers.<br /><br /><p><strong>Licensing</strong></p><p>PUCO #657602<br /> DOT #04462166</p> <br /> <p><strong>Address</strong></p><p>Bryan Berry<br />1452 Andrea Drive<br />Brunswick, OH 44212</p> 
   - image: /assets/img/photo2.jpg
     id: another
     title: List of Services
@@ -19,5 +19,5 @@ sections:
     title: My Story
     headline: Who we are
     body: >- 
-      In 1985 I was hired at Stephens Moving & Storage owned by Burt Cipra. My job consisted of pushing a broom in the warehouse. As time went on he taught me sales and operations. From there I worked at other moving companies holding roles as Operations Manager, Sales Manager, General Manager, Vice President, and then President. I'm proud to announce today after 40 years the industry that I am the owner of Cleveland Office Movers LLC. Burt once told me that "in the end it's not what you have done in your life it is who you positively influenced in your life". Burt, you were a positive influence in my life. I hope to be a positive influence in other peoples' lives as you were in mine.
+      <p>In 1985 I was hired at Stephens Moving & Storage owned by Burt Cipra. My job consisted of pushing a broom in the warehouse. As time went on he taught me sales and operations. From there I worked at other moving companies holding roles as Operations Manager, Sales Manager, General Manager, Vice President, and then President. I'm proud to announce today after 40 years the industry that I am the owner of Cleveland Office Movers LLC. Burt once told me that "in the end it's not what you have done in your life it is who you positively influenced in your life". Burt, you were a positive influence in my life. I hope to be a positive influence in other peoples' lives as you were in mine.<p><p class="text-right">- Bryan Berry, Owner</p>
 ---
