@@ -66,12 +66,14 @@
     </nav>
 
     {% for section in page.sections %}
-    <section class="lg:flex {% cycle 'lg:flex-row', 'lg:flex-row-reverse' %}">
+    <section class="text-container lg:flex {% cycle 'lg:flex-row', 'lg:flex-row-reverse' %}">
       <div class="align-text-middle lg:w-1/2 h-full">
         <h2 id="{{ section.id }}">{{ section.title }}</h2>
         {{ section.body }}
       </div>
-      <img class="lg:w-1/2" {% twoxify section.image %} />
+      <div class="img-container lg:w-1/2 overflow-hidden">
+        <img {% twoxify section.image %} />
+      </div>
     </section>
     {% endfor %}
 

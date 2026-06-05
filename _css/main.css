@@ -156,7 +156,7 @@ section {
   height: 100%;
   width: 100%;
 
-  div {
+  .text-container {
     padding: 50px;
 
     ul {
@@ -169,6 +169,15 @@ section {
       font-family: "Kumbh Sans";
       font-weight: 600;
       /* scroll-margin-top: -250px; */
+    }
+  }
+
+  .img-container {
+    overflow: hidden;
+
+    img {
+      object-fit: cover;
+      height: 100%;
     }
   }
 }
