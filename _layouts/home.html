@@ -66,8 +66,8 @@
     </nav>
 
     {% for section in page.sections %}
-    <section class="text-container lg:flex {% cycle 'lg:flex-row', 'lg:flex-row-reverse' %}">
-      <div class="align-text-middle lg:w-1/2 h-full">
+    <section class="lg:flex {% cycle 'lg:flex-row', 'lg:flex-row-reverse' %}">
+      <div class="text-container align-text-middle lg:w-1/2 h-full">
         <h2 id="{{ section.id }}">{{ section.title }}</h2>
         {{ section.body }}
       </div>
