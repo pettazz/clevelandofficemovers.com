@@ -8,7 +8,7 @@ sections:
     headline: What we are about
     body: >- 
       We provide quality office relocation services to our clients using professionally trained office movers.<br /><br /><p><strong>Licensing</strong></p><p>PUCO #657602<br /> DOT #04462166</p> <br /> <p><strong>Address</strong></p><p>Bryan Berry<br />1452 Andrea Drive<br />Brunswick, OH 44212</p> 
-  - image: /assets/img/photo2.jpg
+  - image: /assets/img/photo4.jpg
     id: services
     title: List of Services
     headline: What we do for you
